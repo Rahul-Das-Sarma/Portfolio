@@ -1,0 +1,40 @@
+@import "../../variables.scss";
+
+.header-container{
+    background-color: $cl-black4;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-title{
+    color:$cl-offWhite;
+    font-size: $fsize-standard;
+}
+.header-title-sm{
+    font-size: $fsize-xsm;
+}
+.multiple-icon-container{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    color:$cl-offWhite;
+    font-size: 1.2rem;
+}
+.icon-container {
+    display:flex;
+    align-items: center;
+}
+.icon-text {
+    color:$cl-offWhite;
+    font-size: $fsize-xsm;
+    margin-left: 0.3rem;
+}
+.left-m-icon{
+    margin-left: 1rem ;
+}
+.lastname{
+    font-weight: 200;
+    color: $cl-alabaster;
+}

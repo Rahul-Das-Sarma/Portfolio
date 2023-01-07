@@ -1,0 +1,59 @@
+@import "../../variables.scss";
+
+.banner-container {
+background-color: $cl-black4;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-top: 3rem;
+padding-bottom: 3rem;
+flex-wrap: wrap-reverse;
+
+}
+
+.designation {
+    background-color: $cl-green;
+    color: $cl-black5;
+    font-size: $fsize-xsm;
+    width:8rem;
+    text-align: center;
+    border-radius: 2px;
+    padding: 2px;
+    margin-bottom: 2rem;
+}
+
+.banner-text-header{
+    margin: 0;
+    color: $cl-offWhite;
+    font-weight: 200;
+}
+
+.bt-header {
+    margin-top: 1rem;
+}
+
+.grid1-container {
+    width:50%;
+    min-height: 12vh ;
+    text-align: center;
+}
+.grid2-container{
+    width: 50%;
+    text-align: center;
+}
+.profile-image{
+    overflow: hidden;
+    border-radius: 50px;
+    width: 40%;
+    height: 50%;
+}
+.para-text {
+    color:$cl-alabaster;
+    font-weight: 200;
+    font-size: $fsize-xsm;
+}
+
+.text-container{ 
+    text-align: left;
+    margin-left: 4rem;
+}
