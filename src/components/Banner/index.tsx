@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.scss";
 // @ts-ignore
-import profile from "../../assets/images/profile.jpg";
+import profile from "../../assets/images/profile.png";
 // @ts-ignore
 import reactLogo from "../../assets/images/react-logo.svg";
 type Props = {};
